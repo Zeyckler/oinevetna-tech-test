@@ -1,0 +1,13 @@
+new_expense:
+  path: /new-expense/
+  defaults: { _controller: AppBundle:Default:createNewExpense }
+  methods: [POST]
+  options:
+    expose: true
+
+expense_list:
+  path: /expense-list/
+  defaults: { _controller: AppBundle:Default:expenseList }
+  methods: [GET,POST]
+  options:
+    expose: true

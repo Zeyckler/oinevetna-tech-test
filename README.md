@@ -1,4 +1,4 @@
-.checkout
-=========
+Oinevetan Tech Test
+===================
 
-A Symfony project created on January 30, 2016, 10:14 am.
+A Symfony backend + HTML+jQuery Frontend

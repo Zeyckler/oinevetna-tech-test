@@ -44,7 +44,7 @@ class DefaultController extends Controller
             Response::HTTP_CREATED,
             [
                 'Content-Type' => 'application/json',
-                'Access-Control-Allow-Origin' => 'http://localhost',
+                'Access-Control-Allow-Origin' => '*',
             ]
         );
 
